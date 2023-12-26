@@ -1,0 +1,41 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100dvh;
+}
+
+.line {
+  animation: move 2s linear infinite;
+  position: relative;
+  border-radius: 20%;
+}
+
+@keyframes move {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+/* .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(255, 166, 0, 0.604);
+  z-index: 101;
+  position: relative;
+  left: 15px;
+} */
+
+h1 {
+  transform: rotate(180deg);
+}
